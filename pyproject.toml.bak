@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flet"]
+build-backend = "flet.build"
+
+[tool.flet]
+dependencies = ["requests"]
+
+[tool.flet.app]
+name = "Currency Converter"
+version = "1.0.0"
+description = "A simple currency converter app"
